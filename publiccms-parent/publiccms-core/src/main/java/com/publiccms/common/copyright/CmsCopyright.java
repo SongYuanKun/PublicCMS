@@ -22,7 +22,7 @@ public class CmsCopyright implements Copyright {
 
     @Override
     public boolean verify(String licenseFilePath) {
-        return LicenseUtils.verifyLicense(CommonConstants.PUBLIC_KEY, getLicense(licenseFilePath));
+        return false;
     }
 
     @Override
